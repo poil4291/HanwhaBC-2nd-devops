@@ -6,10 +6,10 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to EC@
+    name: Deploy to EC2
     runs-on: ubuntu-latest
 
-    step:
+    steps:
       name: git code from github
       uses: appleboy/ssh-action@v1.0.3
       with:
